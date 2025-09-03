@@ -1,0 +1,151 @@
+:root {
+    --primary-color: #0068b4;
+    --text-color: #212529;
+    --header-height: 76px;
+}
+
+/* Hero */
+.introduce__hero {
+    font-family: "Inter", sans-serif;
+}
+
+.introduce__hero-inner {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - var(--header-height));
+}
+
+.introduce__hero-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.introduce__hero-content {
+    position: absolute;
+    color: #fff;
+    bottom: 34px;
+    left: 57px;
+}
+
+.introduce__hero-heading {
+    font-size: 5.2rem;
+    font-weight: 500;
+    line-height: 1.27;
+}
+
+.introduce__line {
+    position: relative;
+    top: 6px;
+    width: 200px;
+    height: 2px;
+    background: #fff;
+}
+
+.introduce__hero-desc {
+    margin-left: 30px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-shadow: 0 4px 12px #000;
+    max-width: 558px;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    width: 100%;
+    background: #f3f3f3;
+    padding: 15px 0 15px 62px;
+}
+
+.breadcrumb__list {
+    display: flex;
+}
+
+.breadcrumb__link {
+    color: #a2a2a2;
+    font-family: "Be Vietnam", sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.breadcrumb__separate {
+    color: #212529bf;
+    font-family: "Be Vietnam", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.breadcrumb__link--current {
+    color: #000;
+}
+
+/* Content */
+.content {
+    background: #fafafa;
+    font-family: "Be Vietnam", sans-serif;
+}
+
+.content__inner {
+    padding: 29px 47px;
+}
+
+.content__header {
+    text-align: center;
+    max-width: 1047px;
+    margin: 0 auto;
+}
+
+.content__title {
+    color: #1b1b1b;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.65;
+}
+
+.content__desc {
+    margin-top: 19px;
+    color: #212529;
+    line-height: 1.875;
+}
+
+.content__list {
+    margin-top: 87px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 23px 34px;
+}
+
+.content-item {
+    position: relative;
+    height: 305px;
+}
+
+.content-item__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content__heading {
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    right: 5px;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.31;
+}
+
+.see-more__text {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
