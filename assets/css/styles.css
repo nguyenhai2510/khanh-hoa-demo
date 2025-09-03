@@ -326,8 +326,6 @@ body {
     cursor: pointer;
 }
 
-
-
 .notification__content-header {
     position: relative;
     padding: 16px 0 23px 38px;
@@ -1053,10 +1051,12 @@ body {
 }
 
 .special-item {
-    display: flex;
+    /* display: flex; */
     gap: 10px;
-    width: 241px;
-    height: 160px;
+    /* width: 241px; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* height: 160px; */
 }
 
 .special-item__img {
