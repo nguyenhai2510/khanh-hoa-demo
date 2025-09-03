@@ -474,6 +474,34 @@
 }
 
 /* Responsive Design */
+@media screen and (min-width: 1600px) {
+    .news-grid {
+        grid-template-columns: 1.5fr 1fr;
+        gap: 50px;
+    }
+    
+    .featured-news__image {
+        width: 500px;
+        height: 350px;
+    }
+    
+    .news-hero {
+        height: 450px;
+    }
+    
+    .news-hero__title {
+        font-size: 5.6rem;
+    }
+    
+    .news-hero__content {
+        max-width: 700px;
+    }
+
+    .news-hero__overlay {
+        padding-left: 100px;
+    }
+    
+}
 @media (max-width: 1024px) {
     .news-grid {
         grid-template-columns: 1fr;
