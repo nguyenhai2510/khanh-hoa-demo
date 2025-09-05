@@ -300,8 +300,10 @@ body {
 }
 
 .notification__inner {
-    padding-left: 60px;
-    padding-right: 60px;
+    /* padding-left: 60px;
+    padding-right: 60px; */
+    max-width: 86%;
+    margin: 0 auto;
     display: flex;
     gap: 40px;
 }
@@ -309,7 +311,7 @@ body {
 .notification__media {
     flex-shrink: 0;
     /* margin-top: 43px; */
-    width: 664px;
+    width: 50%;
     height: 400px;
     overflow: hidden;
 }
@@ -324,6 +326,10 @@ body {
     object-fit: cover;
     transition: transform 0.75s;
     cursor: pointer;
+}
+
+.notification__content {
+    width: 50%;
 }
 
 .notification__content-header {
@@ -350,7 +356,7 @@ body {
 
 .notification__content-wrap {
     margin-top: 29px;
-    padding: 0 63px 0 38px;
+    /* padding: 0 63px 0 38px; */
 }
 
 .notification__content-title {
@@ -906,7 +912,7 @@ body {
 @media screen and (min-width: 1600px) {
     .location__content h3 {
         font-size: 64px;
-    }  
+    }
 }
 .location__content-wrap {
     display: flex;
@@ -919,7 +925,7 @@ body {
 @media screen and (min-width: 1600px) {
     .location__content-wrap {
         max-width: 720px;
-    }  
+    }
 }
 
 .location__content-wrap p {
@@ -945,7 +951,7 @@ body {
 @media screen and (min-width: 1600px) {
     .location__content p {
         font-size: 20px;
-    }  
+    }
 }
 .location__img {
     position: absolute;
@@ -986,7 +992,7 @@ body {
     .location-stack {
         --stack-width: 720px;
         height: 450px;
-    }  
+    }
 }
 
 .location-img-1 {
