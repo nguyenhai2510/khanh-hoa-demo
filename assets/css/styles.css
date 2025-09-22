@@ -261,7 +261,7 @@ body {
 }
 
 .header__mobile-toggle.active .header__mobile-toggle-bar:nth-child(1) {
-    transform: rotate(45deg) translate(0, 9px);
+    transform: rotate(45deg) translate(0, 13px);
 }
 
 .header__mobile-toggle.active .header__mobile-toggle-bar:nth-child(2) {
@@ -270,7 +270,7 @@ body {
 }
 
 .header__mobile-toggle.active .header__mobile-toggle-bar:nth-child(3) {
-    transform: rotate(-45deg) translate(0, -9px);
+    transform: rotate(-45deg) translate(0, -13px);
 }
 
 
